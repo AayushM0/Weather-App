@@ -11,7 +11,7 @@ async function fetchdata(){
     const button=document.getElementById("butt");
     let cityname=city.value;
     const div=document.getElementById("weather-data");
-    const apikey="1e10937d0ab8b49df7275aa25d8c2518";
+    const apikey="";
 
     if (cityname==""){
         div.style.display="block";
